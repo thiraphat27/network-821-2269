@@ -1,0 +1,23 @@
+docker -v = เช็คสถานะdocker
+
+docker ps = เช็คสถานะว่ามีพอร์ตอะไรบ้าง
+
+docker ps --all = เช็คสถานะพอร์ตทั้งหมด
+
+docker run hello-world =
+
+docker images =
+
+docker run busybox ls =
+
+docker run busybox  ping google.com =
+
+docker stop ตามด้วย Container ID (da763b269fb0) = หยุดทำงาน
+
+docker rm ตามด้วย Container ID = ลบ Container
+
+docker run nginx = สั่งrun nginx
+
+docker run -p 80:80 nginx = ชี้เลขIP ที่P:80
+
+docker run -p 9000:80 nginx = ชี้เลขIP ที่P:9000
