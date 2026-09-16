@@ -4,13 +4,13 @@ docker ps = เช็คสถานะว่ามีพอร์ตอะไ�
 
 docker ps --all = เช็คสถานะพอร์ตทั้งหมด
 
-docker run hello-world =
+docker run hello-world = คำสั่งรัน
 
-docker images =
+docker images = ดูรายการ Image ทั้งหมดที่มีอยู่ในเครื่อง
 
-docker run busybox ls =
+docker run busybox ls =  สั่งเปิดใช้งานเครื่องจำลอง (Container) จาก Image ที่ชื่อ busybox
 
-docker run busybox  ping google.com =
+docker run busybox  ping google.com = สั่งเปิด Container ของ busybox ขึ้นมา แล้วให้ทดสอบส่งสัญญาณอินเทอร์เน็ตไปยัง google.com
 
 docker stop ตามด้วย Container ID (da763b269fb0) = หยุดทำงาน
 
